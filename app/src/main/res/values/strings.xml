@@ -8,4 +8,5 @@
     <string name="chinese">Chinese</string>
     <string name="english">English</string>
     <string name="release_date">Release Date</string>
+    <string name="not_suitable_for_all_audience">Not Suitable for all audience</string>
 </resources>

@@ -69,4 +69,29 @@
             android:layout_height="wrap_content"
             android:inputType="date"
     />
+    <CheckBox
+            android:id="@+id/checkboxNotSuitable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/not_suitable_for_all_audience"/>
+
+    <LinearLayout
+            android:id="@+id/checkboxLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+        <CheckBox
+                android:id="@+id/violence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="violence"/>
+        <CheckBox
+                android:id="@+id/languageUsed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="language used"/>
+    </LinearLayout>
+
 </LinearLayout>
