@@ -3,4 +3,8 @@
     <string name="description">Description</string>
     <string name="name">Name</string>
     <string name="language">Language</string>
+    <string name="tamil">Tamil</string>
+    <string name="malay">Malay</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
 </resources>
