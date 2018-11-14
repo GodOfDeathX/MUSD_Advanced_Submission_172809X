@@ -9,26 +9,24 @@
         tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30px"
-        android:text="Name"
+        android:text="@string/name"
     />
 
     <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
     />
 
     <TextView
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30px"
-            android:text="Description"
+            android:text="@string/description"
     />
 
     <EditText
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
     />
 
