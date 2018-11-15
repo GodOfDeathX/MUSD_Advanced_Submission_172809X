@@ -15,4 +15,15 @@
     <string name="enter_the_name_of_the_movie">Enter the name of the movie</string>
     <string name="enter_a_short_description_of_the_movie">Enter a short description of the movie</string>
     <string name="enter_release_date">Enter release date</string>
+    <string name="title">Title:</string>
+    <string name="venom">Venom</string>
+    <string name="overview">overview:</string>
+    <string name="when_eddie_brock_acquires_the_power_of_a_symbiote_he_will_have_to_release_his_alter_ego_venom_to_save_his_life">
+        When Eddie Brock acquires the power of a symbiote, he will have to release his alter-ego Venom to save his life
+    </string>
+    <string name="language_details">Language:</string>
+    <string name="release_date_details">Release Date:</string>
+    <string name="_3_10_2018">3-10-2018</string>
+    <string name="suitable_for_children_below_13">suitable for children below 13</string>
+    <string name="yes">Yes</string>
 </resources>
