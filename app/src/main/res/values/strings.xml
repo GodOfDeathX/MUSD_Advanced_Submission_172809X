@@ -26,4 +26,6 @@
     <string name="_3_10_2018">3-10-2018</string>
     <string name="suitable_for_children_below_13">suitable for children below 13</string>
     <string name="yes">Yes</string>
+    <string name="enter_your_review_for_the_movie">Enter your review for the movie: </string>
+    <string name="share_your_view_on_the_show">Share your view on the show</string>
 </resources>
