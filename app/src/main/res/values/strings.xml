@@ -9,4 +9,10 @@
     <string name="english">English</string>
     <string name="release_date">Release Date</string>
     <string name="not_suitable_for_all_audience">Not Suitable for all audience</string>
+    <string name="violence">Violence</string>
+    <string name="language_used">Language used</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="enter_the_name_of_the_movie">Enter the name of the movie</string>
+    <string name="enter_a_short_description_of_the_movie">Enter a short description of the movie</string>
+    <string name="enter_release_date">Enter release date</string>
 </resources>

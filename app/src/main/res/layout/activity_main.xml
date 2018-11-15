@@ -15,8 +15,10 @@
     />
 
     <EditText
+            android:id="@+id/movieName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/enter_the_name_of_the_movie"
     />
 
     <TextView
@@ -26,8 +28,10 @@
     />
 
     <EditText
+            android:id="@+id/movieDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="@string/enter_a_short_description_of_the_movie"
     />
 
     <TextView
@@ -35,26 +39,31 @@
             android:layout_height="wrap_content"
             android:text="@string/language"/>
     <RadioGroup
+            android:id="@+id/languageRadioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
     >
         <RadioButton
+                android:id="@+id/english"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:text="@string/english"/>
         <RadioButton
+                android:id="@+id/chinese"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:text="@string/chinese"/>
         <RadioButton
+                android:id="@+id/malay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
                 android:text="@string/malay"/>
         <RadioButton
+                android:id="@+id/tamil"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
@@ -63,11 +72,14 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/release_date"/>
+            android:text="@string/release_date"
+    />
     <EditText
+            android:id="@+id/movieReleaseDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="date"
+            android:hint="@string/enter_release_date"
     />
     <CheckBox
             android:id="@+id/checkboxNotSuitable"
@@ -85,13 +97,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="violence"/>
+                android:text="@string/violence"/>
         <CheckBox
                 android:id="@+id/languageUsed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.5"
-                android:text="language used"/>
+                android:text="@string/language_used"/>
     </LinearLayout>
-
+    <Button
+            android:id="@+id/addMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_movie"/>
 </LinearLayout>
