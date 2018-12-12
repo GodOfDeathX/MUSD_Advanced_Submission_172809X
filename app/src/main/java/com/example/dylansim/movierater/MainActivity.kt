@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             val suitable = checkboxNotSuitable.isChecked
             var violenceCheck = ""
             var languageCheck = ""
-            if (violence.isChecked || languageUsed.isChecked) {
+            if (violence.isChecked && languageUsed.isChecked) {
                 violenceCheck = "${violence.text}"
                 languageCheck = "${languageUsed.text}"
             } else if (languageUsed.isChecked) {

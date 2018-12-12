@@ -18,7 +18,7 @@
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/share_your_view_on_the_show"/>
+            android:hint="@string/share_your_view_on_the_show"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
