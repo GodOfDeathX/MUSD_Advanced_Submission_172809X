@@ -28,4 +28,5 @@
     <string name="yes">Yes</string>
     <string name="enter_your_review_for_the_movie">Enter your review for the movie:</string>
     <string name="share_your_view_on_the_show">Share your view on the show</string>
+    <string name="review">Review:</string>
 </resources>

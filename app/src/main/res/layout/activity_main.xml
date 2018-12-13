@@ -105,9 +105,4 @@
                 android:layout_weight="0.5"
                 android:text="@string/language_used"/>
     </LinearLayout>
-    <Button
-            android:id="@+id/addMovie"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/add_movie"/>
 </LinearLayout>

@@ -1,8 +1,10 @@
 package com.example.dylansim.movierater
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ContextMenu
+import android.view.MenuItem
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main4.*
 
@@ -21,5 +23,15 @@ class Main4Activity : AppCompatActivity() {
         if (v?.id == R.id.long_press_movie){
             menu?.add(1,1,1,"Add")
         }
+    }
+
+    override fun onContextItemSelected(item: MenuItem?): Boolean {
+
+        if (item?.itemId == 1001) {
+            var myIntent = Intent(this, Main4Activity::class.java)
+            startActivity(myIntent)
+        }
+
+        return super.onContextItemSelected(item)
     }
 }
