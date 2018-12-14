@@ -32,6 +32,10 @@
             android:layout_height="wrap_content"
             android:text="@string/review"
     />
+    <RatingBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:id="@+id/ratingBar"
+               android:numStars="5"
+               android:visibility="gone"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

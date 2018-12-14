@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
 
-        var myIntent = Intent(this, MainActivity::class.java)
+        var myIntent = Intent(this, Main2Activity::class.java)
 
         if(item?.itemId == R.id.menuAdd) {
 

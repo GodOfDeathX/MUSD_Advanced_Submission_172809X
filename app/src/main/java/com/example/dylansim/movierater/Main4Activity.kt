@@ -19,16 +19,13 @@ class Main4Activity : AppCompatActivity() {
 
     override fun onCreateContextMenu(menu: ContextMenu?, v: View?, menuInfo: ContextMenu.ContextMenuInfo?) {
         super.onCreateContextMenu(menu, v, menuInfo)
-
-        if (v?.id == R.id.long_press_movie){
-            menu?.add(1,1,1,"Add")
-        }
+        menu?.add(1,1001,1,"Add")
     }
 
     override fun onContextItemSelected(item: MenuItem?): Boolean {
 
         if (item?.itemId == 1001) {
-            var myIntent = Intent(this, Main4Activity::class.java)
+            var myIntent = Intent(this, MainActivity::class.java)
             startActivity(myIntent)
         }
 

@@ -8,19 +8,21 @@
         android:orientation="vertical"
         tools:context=".Main3Activity">
     <TextView
+            android:id="@+id/ReviewTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/enter_your_review_for_the_movie"/>
     <RatingBar
+            android:id="@+id/ReviewRatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:numStars="5"/>
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/share_your_view_on_the_show"/>
     <EditText
+            android:id="@+id/ReviewEditText"
+            android:hint="@string/share_your_view_on_the_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="top"
     />
 </LinearLayout>
